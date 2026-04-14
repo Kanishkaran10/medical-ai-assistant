@@ -12,24 +12,26 @@ This assistant can understand medical queries in multiple languages, translate t
 🚀 Features
 🎤 Voice Input Support
 Uses speech_recognition to capture user speech
-🔊 Text-to-Speech Output
+Text-to-Speech Output
 Converts responses to audio using gTTS
-🌐 Multilingual Support
+Multilingual Support
+
 Detects language using langdetect
 Translates using deep-translator (Google Translate)
 Fallback to MarianMT models if translation fails
-🧠 Medical NLP Model
+Medical NLP Model
 Uses fine-tuned model: kaniskaran/medical-finetuned
-🔍 Medical Query Detection
+Medical Query Detection
 Filters non-medical queries using keyword matching
-💬 Chat Interface
+Chat Interface
 Interactive UI with Streamlit chat system
-⚡ Smart Response Generation
+Smart Response Generation
 Generates detailed answers using HuggingFace Transformers
 Auto-expands short responses for better clarity
-🧹 Text Preprocessing
+Text Preprocessing
 Cleans and normalizes user input
-🛠️ Tech Stack
+
+Tech Stack
 Frontend: Streamlit
 Backend: Python
 AI/NLP:
@@ -45,23 +47,26 @@ Utilities:
 langdetect
 regex
 logging
+
 📁 Project Structure
 Medical-AI-Assistant/
 │── app.py                 
 │── preprocessing.py       
 │── config.py              
 │── requirements.txt        
-│── README.md              
+│── README.md  
+
 ⚙️ Installation
 Clone the repository
 git clone https://github.com/Kanishkaran10/medical-ai-assistant.git
 cd medical-ai-assistant
 Create virtual environment
 python -m venv venv
-venv\Scripts\activate   # Windows
+venv\Scripts\activate  
 Install dependencies
 pip install -r requirements.txt
 ▶️ Run the App
+
 streamlit run app.py
 
 Open in browser:
