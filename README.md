@@ -10,7 +10,7 @@ An advanced Medical Multilingual Chatbot with Voice Support built using Streamli
 This assistant can understand medical queries in multiple languages, translate them, generate AI-based responses, and even speak answers back to the user.
 
 🚀 Features
-🎤 Voice Input Support
+Voice Input Support
 Uses speech_recognition to capture user speech
 Text-to-Speech Output
 Converts responses to audio using gTTS
@@ -56,7 +56,7 @@ Medical-AI-Assistant/
 │── requirements.txt        
 │── README.md  
 
-⚙️ Installation
+Installation
 Clone the repository
 git clone https://github.com/Kanishkaran10/medical-ai-assistant.git
 cd medical-ai-assistant
@@ -65,7 +65,7 @@ python -m venv venv
 venv\Scripts\activate  
 Install dependencies
 pip install -r requirements.txt
-▶️ Run the App
+Run the App
 
 streamlit run app.py
 
@@ -83,7 +83,7 @@ Model generates response (transformers)
 Response is:
 Displayed as text
 Converted to speech (gTTS)
-🧠 Core Components
+Core Components
 ✔️ Model Loading
 Loads tokenizer & model using HuggingFace
 Supports GPU (cuda) if available
@@ -109,7 +109,7 @@ This application is for educational purposes only.
 It does NOT provide medical diagnosis or treatment.
 Always consult a licensed medical professional.
 
-🚧 Future Improvements
+Future Improvements
 🌍 Add more regional language support (Tamil, Hindi, etc.)
 🧬 Improve medical model accuracy
 📱 Mobile optimization
