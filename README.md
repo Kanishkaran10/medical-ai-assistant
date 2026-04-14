@@ -86,39 +86,44 @@ Response is:
 Displayed as text
 Converted to speech (gTTS)
 Core Components
-✔️ Model Loading
+Model Loading
 Loads tokenizer & model using HuggingFace
 Supports GPU (cuda) if available
-✔️ Translation System
+Translation System
 Primary: GoogleTranslator
 Fallback: MarianMT models (cached for performance)
-✔️ Medical Query Filter
+Medical Query Filter
 Uses a large keyword set to ensure domain relevance
-✔️ Response Generator
+Response Generator
 Uses controlled generation:
 Low temperature (0.3)
 Top-p sampling
 Repetition penalty
 Auto-extends short answers for better detail
-🎛️ UI Features
+ UI Features
+ 
 💬 Chat-based interface
+
 🎤 Toggle Voice Mode
+
 🗑️ Clear chat history
+
 🔊 Audio playback for responses
-⚠️ Disclaimer
+
+Disclaimer
 
 This application is for educational purposes only.
 It does NOT provide medical diagnosis or treatment.
 Always consult a licensed medical professional.
 
 Future Improvements
-🌍 Add more regional language support (Tamil, Hindi, etc.)
-🧬 Improve medical model accuracy
-📱 Mobile optimization
-☁️ Deploy on cloud (AWS / HuggingFace Spaces)
-🧑‍⚕️ Integrate real medical APIs
-🎙️ Improve voice accuracy & noise handling
-🤝 Contributing
+Add more regional language support (Tamil, Hindi, etc.)
+Improve medical model accuracy
+Mobile optimization
+Deploy on cloud (AWS / HuggingFace Spaces)
+Integrate real medical APIs
+Improve voice accuracy & noise handling
+Contributing
 
 Contributions are welcome!
 
@@ -127,5 +132,5 @@ fork → clone → create branch → commit → push → pull request
 
 MIT License
 
-⭐ Author
+Author
 Kanishkaran SJ
