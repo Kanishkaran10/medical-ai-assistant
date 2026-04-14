@@ -59,7 +59,9 @@ Medical-AI-Assistant/
 Installation
 Clone the repository
 git clone https://github.com/Kanishkaran10/medical-ai-assistant.git
+
 cd medical-ai-assistant
+
 Create virtual environment
 python -m venv venv
 venv\Scripts\activate  
